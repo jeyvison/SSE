@@ -1,0 +1,14 @@
+group 'jee8'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly group: 'javax', name: 'javaee-api', version: '8.0'
+}
