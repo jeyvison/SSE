@@ -1,4 +1,4 @@
-package sse;
+package sse.server;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
